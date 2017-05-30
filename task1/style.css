@@ -39,3 +39,41 @@ ul > li img {
 }
 
 /* Вашият CSS от тук надолу */
+@media (min-width:1000px) {
+    ul li {
+        
+        width: calc(100%/6);
+    }
+}
+@media (min-width:600px) and (max-width: 999) {
+    ul li {
+        width: calc(100%/3);
+    }
+
+}
+
+@media (min-width:400px) and (max-width:599){
+    ul li {
+        width: calc(100%/2);
+}
+
+@media (max-width: 399){
+    ul li {
+        width: calc(100%/1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

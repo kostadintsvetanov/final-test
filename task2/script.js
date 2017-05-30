@@ -4,11 +4,15 @@
 // Сортирайте следния списък от числа във възходящ ред:
 var arr = [2, 5, 8, 4, 1, 12];
 
+arr.sort(function(a, b){return a - b});
 //...
 
 // задача 2 (4т.)
 // Напишете функция, която да изважда всички думи, с дължина над 4 символа от следния текст:
 var text = "The quick brown fox jumps over the lazy dog";
+function longestWords(text){
+    
+}
 
 // ...
 
@@ -47,4 +51,7 @@ var items = [
   }
 ];
 
+items.sort(function(a, b){
+    return a.price - b.price;
+});
 // ...
